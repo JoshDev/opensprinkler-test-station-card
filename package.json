@@ -1,0 +1,37 @@
+{
+  "name": "opensprinkler-test-station-card",
+  "version": "1.0.0",
+  "description": "Home Assistant Lovelace card for testing OpenSprinkler stations",
+  "main": "dist/opensprinkler-test-station-card.js",
+  "scripts": {
+    "build": "cp src/opensprinkler-test-station-card.js dist/",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/ tests/",
+    "lint:fix": "eslint src/ tests/ --fix",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoshDev/opensprinkler-test-station-card"
+  },
+  "keywords": [
+    "home-assistant",
+    "lovelace",
+    "opensprinkler",
+    "irrigation",
+    "smart-home"
+  ],
+  "author": "JoshDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoshDev/opensprinkler-test-station-card/issues"
+  },
+  "homepage": "https://github.com/JoshDev/opensprinkler-test-station-card#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "eslint": "^8.57.0"
+  }
+}
