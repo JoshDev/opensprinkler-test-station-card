@@ -20,8 +20,8 @@ A Home Assistant Lovelace card for quickly testing OpenSprinkler irrigation stat
 ## Screenshots
 
 <p align="center">
-  <img src="img/not-running.png" width="400" alt="Card in idle state">
-  <img src="img/running.png" width="400" alt="Card with running station">
+  <img src="https://raw.githubusercontent.com/JoshDev/opensprinkler-test-station-card/main/img/not-running.png" width="400" alt="Card in idle state">
+  <img src="https://raw.githubusercontent.com/JoshDev/opensprinkler-test-station-card/main/img/running.png" width="400" alt="Card with running station">
 </p>
 
 ## Installation
